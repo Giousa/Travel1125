@@ -2,6 +2,7 @@
 
   <div>
 
+    <home-header></home-header>
     <div>Home首页</div>
 
   </div>
@@ -10,8 +11,13 @@
 
 <script>
 
+import HomeHeader from './components/Head'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    HomeHeader
+  }
 }
 
 </script>
