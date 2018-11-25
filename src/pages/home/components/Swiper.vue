@@ -28,15 +28,15 @@ export default {
       swiperList: [
         {
           id: '0001',
-          imgUrl: "http://img1.qunarzz.com/piao/fusion/1810/af/30ffcf34e9819f02.jpg_750x200_736b7236.jpg"
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1810/af/30ffcf34e9819f02.jpg_750x200_736b7236.jpg'
         },
         {
           id: '0002',
-          imgUrl: "http://img1.qunarzz.com/piao/fusion/1811/9d/a6e922acbb4c9802.jpg_750x200_74080b0c.jpg"
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1811/9d/a6e922acbb4c9802.jpg_750x200_74080b0c.jpg'
         },
         {
           id: '0003',
-          imgUrl: "http://img1.qunarzz.com/piao/fusion/1805/e5/59fad13a64807d02.jpg_750x200_713ae984.jpg"
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1805/e5/59fad13a64807d02.jpg_750x200_713ae984.jpg'
         }
       ]
     }
