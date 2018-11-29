@@ -74,16 +74,17 @@ export default {
     }
   },
   computed: {
+
     pages () {
-      const pages = [];
-      this.iconsList.forEach(function(item,index) {
-        const page = Math.floor(index/8);
-        if(!pages[page]){
+      const pages = []
+      this.iconsList.forEach(function (item, index) {
+        const page = Math.floor(index / 8)
+        if (!pages[page]) {
           pages[page] = []
         }
         pages[page].push(item)
-      });
-      return pages;
+      })
+      return pages
     }
   }
 }
@@ -95,6 +96,7 @@ export default {
   @import '~styles/mixins.styl'
 
   .icons{
+    margin-top: .2rem;
     overflow: hidden;
     height:0;
     padding-bottom:50%;
